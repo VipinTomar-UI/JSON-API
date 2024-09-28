@@ -1,82 +1,84 @@
-[
-  {
-    "title": "Football Standings",
-    "type": "bar",
-    "data": [
-      {
-        "team": "Manchester City",
-        "points": 75,
-        "position": 1
-      },
-      {
-        "team": "Arsenal",
-        "points": 72,
-        "position": 2
-      },
-      {
-        "team": "Chelsea",
-        "points": 65,
-        "position": 3
-      },
-      {
-        "team": "Liverpool",
-        "points": 64,
-        "position": 4
-      }
-    ],
-    "keys": [
-      "points",
-      "position"
-    ],
-    "indexBy": "team"
-  },
-  {
-    "title": "Tennis Women Contenders",
-    "type": "pie",
-    "data": [
-      {
-        "id": "Iga Świątek",
-        "value": 1
-      },
-      {
-        "id": "Coco Gauff",
-        "value": 6
-      }
-    ]
-  },
-  {
-    "title": "Bowler Match & Wicket report",
-    "type": "line",
-    "data": [
-      {
-        "id": "cricket",
-        "data": [
-          {
-            "x": "10 matches",
-            "y": "15 wickets"
-          },
-          {
-            "x": "20 matches",
-            "y": "22 wickets"
-          },
-          {
-            "x": "30 matches",
-            "y": "37 wickets"
-          },
-          {
-            "x": "40 matches",
-            "y": "53 wickets"
-          },
-          {
-            "x": "50 matches",
-            "y": "75 wickets"
-          },
-          {
-            "x": "60 matches",
-            "y": "91 wickets"
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "data": [
+    {
+      "title": "Football Standings",
+      "type": "bar",
+      "data": [
+        {
+          "team": "Manchester City",
+          "points": 75,
+          "position": 1
+        },
+        {
+          "team": "Arsenal",
+          "points": 72,
+          "position": 2
+        },
+        {
+          "team": "Chelsea",
+          "points": 65,
+          "position": 3
+        },
+        {
+          "team": "Liverpool",
+          "points": 64,
+          "position": 4
+        }
+      ],
+      "keys": [
+        "points",
+        "position"
+      ],
+      "indexBy": "team"
+    },
+    {
+      "title": "Tennis Women Contenders",
+      "type": "pie",
+      "data": [
+        {
+          "id": "Iga Świątek",
+          "value": 1
+        },
+        {
+          "id": "Coco Gauff",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "title": "Bowler Match & Wicket report",
+      "type": "line",
+      "data": [
+        {
+          "id": "cricket",
+          "data": [
+            {
+              "x": "10 matches",
+              "y": "15 wickets"
+            },
+            {
+              "x": "20 matches",
+              "y": "22 wickets"
+            },
+            {
+              "x": "30 matches",
+              "y": "37 wickets"
+            },
+            {
+              "x": "40 matches",
+              "y": "53 wickets"
+            },
+            {
+              "x": "50 matches",
+              "y": "75 wickets"
+            },
+            {
+              "x": "60 matches",
+              "y": "91 wickets"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
